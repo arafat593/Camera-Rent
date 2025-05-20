@@ -73,7 +73,7 @@ class _FirstScreenState extends State<FirstScreen> {
                       setState(() {
                         isLogin = false;
                       });
-                      Get.to(LoginScreen());
+                      Get.to(LoginScreen());//navigate to log in screen
                     },
                   ),
                 ],
